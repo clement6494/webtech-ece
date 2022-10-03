@@ -38,11 +38,18 @@ const qs = require('querystring')
 }*/
 
 const serverHandle = function (req, res){
-    const queryParams = qs.parse(url.parse(req.url).query);
-    console.log(queryParams);
+    const route = url.parse(req.url)
+    const path = route.pathname
+    const params = qs.parse(route.query)
+    const greeting = 'Hello ' + params['name'] + '\n'
 
     res.writeHead(200, {'Content-Type' : 'text/html'} );
-    res.write(content);
+
+    if (path === '/hello' && 'name' in params){
+        res.write(greeting + greeting + greeting)
+    } else {
+        res.write('Hello anonymous')
+    }
     res.end();
 }
 
