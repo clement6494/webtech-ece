@@ -1,5 +1,3 @@
-
-
 ---
 title: Web Technologies
 student:
