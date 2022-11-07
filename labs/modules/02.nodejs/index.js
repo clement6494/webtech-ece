@@ -1,4 +1,5 @@
-/* 1*/
+
+/* 1
 // Import a module
 const http = require('http')
 
@@ -14,7 +15,7 @@ http.createServer(function (req, res) {
 // Start the server
 }).listen(8080)
 
-/*3*/
+/*3
 const serverHandle = function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Hello World\n');
@@ -23,7 +24,7 @@ const serverHandle = function (req, res) {
   const server = http.createServer(serverHandle);
   server.listen(8080)
 
-  /*4*/
+  /*4
   // Define a string constant concatenating strings
 const content = '<!DOCTYPE html>' +
 '<html>' +
@@ -43,7 +44,7 @@ const serverHandle = function (req, res) {
   res.end();
 }
 
-/*5*/
+/*5
 // Import Node url module
 const url = require('url')
 
@@ -57,7 +58,7 @@ const serverHandle = function (req, res) {
   res.end();
 }
 
-/*6*/
+/*6
 const url = require('url')
 const qs = require('querystring')
 
@@ -71,7 +72,7 @@ const serverHandle = function (req, res) {
   res.end();
 }
 
-/*7*/
+/*7
 const url = require('url')
 const qs = require('querystring')
 
@@ -91,7 +92,7 @@ const serverHandle = function (req, res) {
   res.end();
 }
 
-/*8*/
+/*8
 // ./handles.js
 // Necessary imports
 module.exports = {
@@ -105,3 +106,5 @@ const http = require('http')
 const handles = require('./handles')
 const server = http.createServer(handles.serverHandle);
 server.listen(8080)
+
+*/
