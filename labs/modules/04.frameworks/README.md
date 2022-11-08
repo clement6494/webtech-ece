@@ -1,12 +1,11 @@
  # Lab4
 
- In this lab we learned how to control React and Next.js
+introduction to Next.js
 
  ## Install
 
- We install npx
+Building a website skeleton designed for a blog
 
  ## Authors:
 
- Asseli Walid
- Martinez Adrien
+CONCHEZ clement
