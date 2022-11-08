@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/articles.module.css'
-export default function articles( {articles }) {
+export default function Articles( {articles }) {
     return (<div className={styles.container}>
         <Head>
             <title>Create Next App</title>
@@ -17,14 +17,16 @@ export default function articles( {articles }) {
     </div>
     )
 }
-export async function getStaticProps(context) {
-    const res = await fetch('https://.../articless')
-    const posts = await res.json()
+export async function getStaticProps() {
+    const res = await fetch('https://.../articles')
+    const articles = await res.json()
     return {
-    props: {}, // will be passed to the page component as props
+    props: {
+        articles,
+    }, // will be passed to the page component as props
 
 
     }
 }
 
-export default articles
+export default Articles
