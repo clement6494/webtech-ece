@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import styles from '../styles/articles.module.css'
-export default function Articles( {articles }) {
+export default function list( {articles }) {
     return (<div className={styles.container}>
         <Head>
             <title>Create Next App</title>
@@ -29,4 +29,4 @@ export async function getStaticProps() {
     }
 }
 
-export default Articles
+export default list
