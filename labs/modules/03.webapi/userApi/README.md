@@ -1,5 +1,5 @@
 
-# ECE Webtech Lab 3
+# ECE Webtech Lab 03.webapi
 
 ## Installation
 
@@ -19,7 +19,7 @@ Start a web server with the command:
 npm start
 ```
 
-It will start a web server available in your browser at http://localhost:8080.
+start a web server available in default browser at http://localhost:8080.
 
 ## Develop
 
@@ -28,11 +28,8 @@ Start a web server with the command:
 ```
 npm run develop
 ```
-
-It will start a web server available in your browser at http://localhost:3000.
+start a web server available in default browser at http://localhost:3000.
 
 ## Authors
 
-Walid Asseli
-
-Adrien Martinez
+CONCHEZ Clement
