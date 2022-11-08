@@ -3,7 +3,7 @@ title: Web Technologies
 student:
 - Clement CONCHEZ
 
-feature: ./feature/index.png
+feature: /Node_modules
 ---
 
 # Web Technologies
