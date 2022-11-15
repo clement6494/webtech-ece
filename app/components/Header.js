@@ -7,7 +7,9 @@ import UserContext from './UserContext'
 import LoggedIn from './LoggedIn'
 import LoggedOut from './LoggedOut'
 
+
 export default function Header(){
+
   const {user} = useContext(UserContext)
   return (
     <header className="flex bg-slate-200 px-10 py-2">
@@ -41,4 +43,5 @@ export default function Header(){
       </ul>
     </header>
   )
+  
 }

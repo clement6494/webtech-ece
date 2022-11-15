@@ -7,6 +7,7 @@ export default UserContext
 export const UserContextProvider = ({
   children
 }) => {
+  
   const [user, setUser] = useState(null)
   return (
     <UserContext.Provider
@@ -23,4 +24,5 @@ export const UserContextProvider = ({
       {children}
     </UserContext.Provider>
   )
+
 }
