@@ -32,16 +32,20 @@
 
 ## Authors
 
-Elie Mediouni
-[elie.mediouni@edu.ece.fr][link-edu-elie] | [@eliemdn][link-elie]
 
-Clément Conchez
-[clement.conchezboueytou@edu.ece.fr][link-edu-clement] | [@clement6494][link-clement}
+   #### *Elie Mediouni*
+   - [elie.mediouni@edu.ece.fr][link-edu-elie] 
+   - [@eliemdn][link-elie]
+   #### *Clément Conchez*
+   - [clement.conchezboueytou@edu.ece.fr][link-edu-clement] 
+   - [@clement6494][link-clement]
 
-link-edu-elie : elie.mediouni@edu.ece.fr
-link-edu-clement : clement.conchezboueytou@edu.ece.fr
-link-elie : https://github.com/eliemdn
-link-clement : https://github.com/clement6494
+
+
+[link-edu-elie]: elie.mediouni@edu.ece.fr
+[link-edu-clement]: clement.conchezboueytou@edu.ece.fr
+[link-elie]: https://github.com/eliemdn
+[link-clement]: https://github.com/clement6494
 ## Tasks
   
 **Project management:**
