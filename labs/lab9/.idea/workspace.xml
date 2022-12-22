@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9f7d38c-377d-478d-a724-67243d7b8533" name="Changes" comment="feat: getStaticProps()">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/webtech-ece" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HGIDim1uQsXarmpzpahipSzQL8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ECE/GitHub/webtech-ece/webtech-ece/app/pages&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\ECE\\GitHub\\webtech-ece\\webtech-ece\\app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ECE\GitHub\webtech-ece\webtech-ece\app\pages" />
+      <recent name="E:\ECE\GitHub\webtech-ece\webtech-ece\app\styles" />
+      <recent name="E:\ECE\GitHub\webtech-ece\webtech-ece" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ECE\GitHub\webtech-ece\webtech-ece\app\pages" />
+      <recent name="E:\ECE\GitHub\webtech-ece\webtech-ece\labs\modules\05.styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9f7d38c-377d-478d-a724-67243d7b8533" name="Changes" comment="" />
+      <created>1667904876072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667904876072</updated>
+      <workItem from="1667904878093" duration="7814000" />
+      <workItem from="1667913400672" duration="995000" />
+      <workItem from="1670176364599" duration="310000" />
+      <workItem from="1670198017320" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 02.nodejs/package.json">
+      <created>1667907117237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667907117237</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 04.frameworks + 05.styles">
+      <created>1667907936121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667907936121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="doc: 03.webapi README.md">
+      <created>1667908622104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667908622104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: content">
+      <created>1667908753371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667908753371</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: content">
+      <created>1667908843016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667908843016</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 04.frameworks/README.md">
+      <created>1667908970310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667908970310</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 04.frameworks">
+      <created>1667909170751</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667909170751</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: .gitignore">
+      <created>1667909311135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667909311135</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: 05.styles/package-lock.json">
+      <created>1667909789406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667909789406</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: about page">
+      <created>1667911841141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667911841141</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: articles page">
+      <created>1667911855125</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667911855125</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: contacts page">
+      <created>1667911870240</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667911870240</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: .gitignore">
+      <created>1667912147311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667912147311</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: articles.tsx">
+      <created>1667912699561</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667912699561</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: global.css">
+      <created>1667912798492</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667912798492</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: getStaticProps()">
+      <created>1667913508829</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667913508829</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: getStaticProps()">
+      <created>1667913788227</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667913788227</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 02.nodejs/package.json" />
+    <MESSAGE value="feat: 04.frameworks + 05.styles" />
+    <MESSAGE value="doc: 03.webapi README.md" />
+    <MESSAGE value="feat: content" />
+    <MESSAGE value="feat: 04.frameworks/README.md" />
+    <MESSAGE value="feat: 04.frameworks" />
+    <MESSAGE value="feat: 05.styles/package-lock.json" />
+    <MESSAGE value="feat: about page" />
+    <MESSAGE value="feat: articles page" />
+    <MESSAGE value="feat: contacts page" />
+    <MESSAGE value="feat: .gitignore" />
+    <MESSAGE value="feat: articles.tsx" />
+    <MESSAGE value="feat: global.css" />
+    <MESSAGE value="feat: getStaticProps()" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: getStaticProps()" />
+  </component>
+</project>
