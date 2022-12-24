@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Section1 from '../components/section1'
 import { Auth, ThemeSupa } from '@supabase/auth-ui-react'
 import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react'
 import Account from '../components/Account'
@@ -20,7 +21,7 @@ const Home = () => {
     <div>
       <Header></Header>
 
-      
+      <Section1></Section1>
 
       <Footer></Footer>
     </div>
