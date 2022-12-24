@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import UserContext from './UserContext'
 
 export default function LoggedOut(){
-    const {login} = useContext(UserContext)
+    const login = useContext(UserContext)
     const onClickLogin = async (e) => {
       const response = await fetch('/api/profile')
       const user = await response.json()
@@ -14,7 +14,7 @@ export default function LoggedOut(){
         onClick={onClickLogin}
       >
         
-        Log-in
+        Login
       </button>
     )
   }
