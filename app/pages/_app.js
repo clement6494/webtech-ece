@@ -1,11 +1,9 @@
-import '../styles/globals.css'
-
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { supabase } from '../api'
+import '../styles/globals.css'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
   const [user, setUser] = useState(null);
   useEffect(() => {
     const { data: authListener } = supabase.auth.onAuthStateChange(
@@ -43,3 +41,5 @@ export default function App({ Component, pageProps }) {
   </div>
   )
 }
+
+export default MyApp
