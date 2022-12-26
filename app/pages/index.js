@@ -2,6 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import Format from '../layout/format';
+
+// compoenents
+import Section1 from '../components/section1';
+import Section2 from '../components/section2';
+import Section3 from '../components/section3';
+import Section4 from '../components/section4';
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
@@ -11,8 +18,18 @@ import { supabase } from '../api'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  <Format>
+      <Section1></Section1>
+      <Section2></Section2>
+      <Section3></Section3>
+      <Section4></Section4>
+   </Format>
    
-      const [posts, setPosts] = useState([])
+
+}
+
+/**      const [posts, setPosts] = useState([])
   const [loading, setLoading] = useState(true)
   useEffect(() => {
     fetchPosts()
@@ -41,6 +58,4 @@ export default function Home() {
         )
       }
     </div>
-  )
-}
-
+  ) */
