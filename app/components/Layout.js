@@ -6,6 +6,7 @@ export default function Layout({
   }){
     return (
       <div>
+        <Head> <title> webtech project</title></Head>
         <Header />
         <main className="py-10 min-h-screen max-w-full md:max-w-2xl md:mx-auto">
         {children}
