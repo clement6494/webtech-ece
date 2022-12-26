@@ -9,11 +9,11 @@ function MyApp({ Component, pageProps }) {
     const { data: authListener } = supabase.auth.onAuthStateChange(checkUser)
     checkUser()
     return () => {
-      authListener?.unsubscribe()
+      authListener?.subscription.unsubscribe()
     };
   }, [])
   function checkUser() {
-    const user = supabase.auth.user()
+    const user = supabase.auth.getUser()
     setUser(user)
   }
   return (
