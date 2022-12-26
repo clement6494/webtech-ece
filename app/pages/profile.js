@@ -1,6 +1,7 @@
 import { Auth, Typography, Button } from "@supabase/ui";
 const { Text } = Typography
 import { supabase } from '../api'
+import Format from '../layout/format';
 
 function Profile(props) {
     const { user } = Auth.useUser();

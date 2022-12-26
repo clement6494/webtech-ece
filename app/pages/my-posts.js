@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { supabase } from '../api'
+import Format from '../layout/format';
+
 
 export default function MyPosts() {
   const [posts, setPosts] = useState([])
