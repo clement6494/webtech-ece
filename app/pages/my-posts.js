@@ -9,7 +9,7 @@ export default function MyPosts() {
   }, [])
 
   async function fetchPosts() {
-    const user = supabase.auth.user()
+    const user = supabase.auth.getUser()
     const { data } = await supabase
       .from('posts')
       .select('*')
