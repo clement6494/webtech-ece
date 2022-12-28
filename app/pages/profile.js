@@ -1,11 +1,15 @@
 import { useRouter } from 'next/router'
 import { useContext, useEffect } from 'react'
+import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react'
 import Head from 'next/head'
 import Layout from '../components/Layout.js'
+import Account from '../components/Account'
 
 import UserContext from '../components/UserContext'
 
-export default function Contact() {
+export default function Profile() {
+  const session = useSession()
+  const supabase = useSupabaseClient()
   const { user, logout, loading } = useContext(UserContext)
   const router = useRouter()
   useEffect(() => {
@@ -33,7 +37,13 @@ export default function Contact() {
           >
             Logout
           </button>
-          <pre><code>{JSON.stringify(user, null, 2)}</code></pre>
+          <div className="container" style={{ padding: '50px 0 100px 0' }}>
+      {!session ? (
+        <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} theme="dark" />
+      ) : (
+        <Account session={session} />
+      )}
+    </div>
         </>
       }
 
