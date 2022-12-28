@@ -14,15 +14,11 @@ export default function Section1() {
     if(isLoading) return <Spinner></Spinner>;
     if(isError) return <Error></Error>
 
-  const bg = {
-    background: "url('/images/banner.png') no-repeat",
-    backgroundPosition: "right"
-}
 
   return (
 
-    <section className="py-16" style={bg}>
-      <div className="container mx-auto md:px-20">
+    <section className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 
             <h1 className="font-bold text-4xl pb-12 text-center">Latest articles</h1>
 
