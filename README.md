@@ -54,7 +54,8 @@
   *On the whole we have respected all the naming rules*  
   *Grade : 2/2*
 * Project structure   
-  **
+  *The project is quite well structured*  
+  *Grade : 2/2*
 * Git   
   *All our commits respect the conventional rules learned in class and the merge is respected (main branch and secondary branches)*  
   *Grade : 2/2*
@@ -62,40 +63,14 @@
   *The code is rather clear, indented and commented which allows a better understanding when rereading*  
   *Grade : 3/4*
 * Design, UX, and content   
-  *place your graduation and comments*
+  *The project was made in Tailwind CSS and is quite clean*  
+  *Grade : 2/4*
 
 **Application development:**
 
 * Home page   
-  *place your graduation and comments*
+  *Nice homepage with some articles on the front page*  
+  *Grade : 2/2*
 * Login and profile page   
-  *place your graduation and comments*
-* New articles creation   
-  *place your graduation and comments*
-* New comment creation   
-  *place your graduation and comments*
-* Resource access control   
-  *place your graduation and comments*
-* Article modification   
-  *place your graduation and comments*
-* Article removal   
-  *place your graduation and comments*
-* Comment modification   
-  *place your graduation and comments*
-* Comment removal   
-  *place your graduation and comments*
-* Account settings   
-  *place your graduation and comments*
-* WYSIWYG integration   
-  *place your graduation and comments*
-* Gravatar integration   
-  *place your graduation and comments*
-* Light/dark theme   
-  *place your graduation and comments*
-* Accent color selection   
-  *place your graduation and comments*
-
-## Bonus
-
-* Task title   
-  *place your graduation and comments*
+  *Connection system with Github and inscriptions directly on the site (stored in Supabase)*  
+  *Grade : 2/4*
