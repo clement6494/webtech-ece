@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/Layout.js'
 
+
 //sections
 import Section1 from '../components/section1.js'
 
