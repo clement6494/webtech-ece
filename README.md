@@ -51,13 +51,16 @@
 **Project management:**
 
 * Naming convention   
-  *place your graduation and comments*
+  *On the whole we have respected all the naming rules*  
+  *Grade : 2/2*
 * Project structure   
-  *place your graduation and comments*
+  **
 * Git   
-  *place your graduation and comments*
+  *All our commits respect the conventional rules learned in class and the merge is respected (main branch and secondary branches)*  
+  *Grade : 2/2*
 * Code quality   
-  *place your graduation and comments*
+  *The code is rather clear, indented and commented which allows a better understanding when rereading*  
+  *Grade : 3/4*
 * Design, UX, and content   
   *place your graduation and comments*
 
