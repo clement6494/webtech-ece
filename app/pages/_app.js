@@ -1,10 +1,19 @@
-import Link from 'next/link'
-import { useState, useEffect } from 'react'
-import { supabase } from '../api'
 import '../styles/globals.css'
+import { useState } from 'react'
+import { createBrowserSupabaseClient } from '@supabase/auth-helpers-nextjs'
+import { SessionContextProvider } from '@supabase/auth-helpers-react'
+import {UserContextProvider} from '../components/UserContext'
 
-function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  const [supabaseClient] = useState(() => createBrowserSupabaseClient())
+  return (
+    <SessionContextProvider
+      supabaseClient={supabaseClient}
+      initialSession={pageProps.initialSession}
+    >
+      <UserContextProvider>
+        <Component {...pageProps} />
+      </UserContextProvider>
+    </SessionContextProvider>
+  )
 }
-
-export default App
