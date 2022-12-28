@@ -2,22 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Login from './Login'
 
-export default function Header(){
-
-    const [user, setUser] = useState(null);
-    useEffect(() => {
-        const { data: authListener } = supabase.auth.onAuthStateChange(checkUser)
-        checkUser()
-        return () => {
-      authListener?.subscription.unsubscribe()
-        };
-    }, [])
-
-    function checkUser() {
-        const user = supabase.auth.getUser()
-        setUser(user)
-    }
-  
+export default function Header(){  
   
   return (
     <header className="flex bg-slate-200 px-10 py-2">

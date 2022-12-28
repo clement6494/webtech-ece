@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>WebTech</title>
         <meta name="description" content="Web technologies blogging application" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
