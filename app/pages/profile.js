@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import { useContext, useEffect } from 'react'
 import Head from 'next/head'
 import Layout from '../components/Layout.js'
+
 import UserContext from '../components/UserContext'
 
 export default function Contact() {
@@ -35,6 +36,7 @@ export default function Contact() {
           <pre><code>{JSON.stringify(user, null, 2)}</code></pre>
         </>
       }
+
     </Layout>
   )
 }

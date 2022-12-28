@@ -6,13 +6,6 @@ import Image from 'next/image'
 
 
 export default function Footer(){
-
-  const bg = {
-    backgroundImage : "url('/images/footer.png')",
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: "bottom left"
-  }
-
   
   return (
     <footer className="xl:container xl:mx-auto flex flex-col items center sm:flex-row sm:justify-between">

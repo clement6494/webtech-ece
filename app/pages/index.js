@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/Layout.js'
+import Section1 from '../components/section1.js'
+
 
 export default function Home() {
   return (
@@ -12,23 +14,7 @@ export default function Home() {
       <h1 className='wt-title'>
         Welcome to <a href="https://www.adaltas.com">web technologies!</a>
       </h1>
-      <ul>
-        <li>
-          <Link href="/articles">
-            View our articles
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            About us
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-            Contact us
-          </Link>
-        </li>
-      </ul>
+      <Section1></Section1>
     </Layout>
   )
 }
