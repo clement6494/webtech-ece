@@ -1,16 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
-import Author from "./_child/author"
-import fetcher from '../lib/fetcher'
-import Spinner from "./_child/spinner"
-import Error from "./_child/error"
+
 
 export default function section2() {
 
     const { data, isLoading, isError } = fetcher('api/posts')
     
-    if(isLoading) return <Spinner></Spinner>;
-    if(isError) return <Error></Error>
+
 
   return (
     <section className="container mx-auto md:px-20 py-10">
@@ -48,7 +44,7 @@ function Post( { data } ){
                     Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
                     text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
                 </p>
-                { author ? <Author {...author}></Author> : <></>}
+                
             </div>
         </div>
     )

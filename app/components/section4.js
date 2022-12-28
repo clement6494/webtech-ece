@@ -1,10 +1,7 @@
-import Author from "./_child/author"
+
 import Link from "next/link"
 import Image from "next/image"
 
-import fetcher from '../lib/fetcher'
-import Spinner from "./_child/spinner"
-import Error from "./_child/error"
 
 
 export default function section4() {
@@ -56,7 +53,7 @@ function Post({ data }){
                 <div className="title">
                     <Link href={`/posts/${id}`}><a className="text-xl font-bold text-gray-800 hover:text-gray-600">{title || "No Title"}</a></Link>
                 </div>
-                { author ? <Author {...author}></Author> : <></>}
+                
             </div>
         </div>
     )
