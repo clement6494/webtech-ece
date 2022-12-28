@@ -4,7 +4,7 @@ import Layout from '../components/Layout.js'
 
 
 //sections
-import Section1 from '../components/section1.js'
+import Section1 from '../components/post.js'
 
 
 export default function Home() {
